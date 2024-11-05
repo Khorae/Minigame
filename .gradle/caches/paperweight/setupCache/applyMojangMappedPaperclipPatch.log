@@ -1,0 +1,2 @@
+Command: C:\Users\raulb\.jdks\temurin-21.0.4\bin\java.exe -Dpaperclip.patchonly=true -classpath C:\Users\raulb\Documents\Paper-Spigot\Minigame\.gradle\caches\paperweight\setupCache\extractDevBundle.dir\data\paperclip-mojang+yarn.jar io.papermc.paperclip.Main
+Applying patches

@@ -1,0 +1,171 @@
+[21:31:25] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[21:31:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:31:32] [ServerMain/INFO]: Loaded 1174 recipes
+[21:31:32] [ServerMain/INFO]: Loaded 1271 advancements
+[21:31:32] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[21:31:32] [Server thread/INFO]: Loading properties
+[21:31:32] [Server thread/INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[21:31:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:31:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:31:34] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[21:31:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[21:31:34] [Server thread/INFO]: Default game type: SURVIVAL
+[21:31:34] [Server thread/INFO]: Generating keypair
+[21:31:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:31:34] [Server thread/INFO]: Using default channel type
+[21:31:34] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:31:34] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:31:34] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.1-SNAPSHOT-949;c252850
+[21:31:35] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3f1202e1]
+[21:31:35] [Server thread/INFO]: [Minigame] Loading server plugin Minigame v1.0-SNAPSHOT
+[21:31:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:31:35] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.1-SNAPSHOT-949;c252850
+[21:31:35] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[21:31:35] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[21:31:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:31:36] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:31:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R3.PaperweightFaweAdapter as the Bukkit adapter
+[21:31:37] [Server thread/INFO]: Preparing level "world"
+[21:31:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:31:38] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 3 build(s) out of date.
+You are running build 949, the latest version is build 952.
+Update at https://www.spigotmc.org/resources/13932/
+[21:31:38] [Server thread/INFO]: Time elapsed: 689 ms
+[21:31:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:31:38] [Server thread/INFO]: Time elapsed: 57 ms
+[21:31:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:31:38] [Server thread/INFO]: Time elapsed: 42 ms
+[21:31:38] [Server thread/INFO]: [Minigame] Enabling Minigame v1.0-SNAPSHOT
+[21:31:38] [Server thread/INFO]: [Minigame] El mundo 'Arena' no está cargado. Intentando cargarlo manualmente...
+[21:31:38] [Server thread/ERROR]: Could not set generator for default world 'Arena': Plugin 'FLAT' does not exist
+[21:31:38] [Server thread/INFO]: Preparing start region for dimension minecraft:arena
+[21:31:39] [Server thread/INFO]: Time elapsed: 1222 ms
+[21:31:39] [Server thread/INFO]: [Minigame] El mundo 'Arena' ha sido cargado o creado correctamente.
+[21:31:40] [Server thread/WARN]: java.lang.Throwable: Warning: A plugin is creating a recipe using a Deprecated method. This will cause you to receive warnings stating 'Tried to load unrecognized recipe: bukkit:<ID>'. Please ask the author to give their recipe a static key using NamespacedKey.
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.inventory.ShapedRecipe.<init>(ShapedRecipe.java:34)
+[21:31:40] [Server thread/WARN]: 	at Minigame-1.0-SNAPSHOT.jar//me.khorae.minigame.Minigame.addCustomRecipeBossEssenceSword(Minigame.java:163)
+[21:31:40] [Server thread/WARN]: 	at Minigame-1.0-SNAPSHOT.jar//me.khorae.minigame.Minigame.onEnable(Minigame.java:128)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[21:31:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
+[21:31:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[21:31:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:31:40] [Server thread/WARN]: java.lang.Throwable: Warning: A plugin is creating a recipe using a Deprecated method. This will cause you to receive warnings stating 'Tried to load unrecognized recipe: bukkit:<ID>'. Please ask the author to give their recipe a static key using NamespacedKey.
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.inventory.ShapedRecipe.<init>(ShapedRecipe.java:34)
+[21:31:40] [Server thread/WARN]: 	at Minigame-1.0-SNAPSHOT.jar//me.khorae.minigame.Minigame.addCustomRecipeBossEssenceHelmet(Minigame.java:188)
+[21:31:40] [Server thread/WARN]: 	at Minigame-1.0-SNAPSHOT.jar//me.khorae.minigame.Minigame.onEnable(Minigame.java:129)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[21:31:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
+[21:31:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[21:31:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:31:40] [Server thread/WARN]: java.lang.Throwable: Warning: A plugin is creating a recipe using a Deprecated method. This will cause you to receive warnings stating 'Tried to load unrecognized recipe: bukkit:<ID>'. Please ask the author to give their recipe a static key using NamespacedKey.
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.inventory.ShapedRecipe.<init>(ShapedRecipe.java:34)
+[21:31:40] [Server thread/WARN]: 	at Minigame-1.0-SNAPSHOT.jar//me.khorae.minigame.Minigame.addCustomRecipeBossEssenceChestplate(Minigame.java:216)
+[21:31:40] [Server thread/WARN]: 	at Minigame-1.0-SNAPSHOT.jar//me.khorae.minigame.Minigame.onEnable(Minigame.java:130)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[21:31:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
+[21:31:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[21:31:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:31:40] [Server thread/WARN]: java.lang.Throwable: Warning: A plugin is creating a recipe using a Deprecated method. This will cause you to receive warnings stating 'Tried to load unrecognized recipe: bukkit:<ID>'. Please ask the author to give their recipe a static key using NamespacedKey.
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.inventory.ShapedRecipe.<init>(ShapedRecipe.java:34)
+[21:31:40] [Server thread/WARN]: 	at Minigame-1.0-SNAPSHOT.jar//me.khorae.minigame.Minigame.addCustomRecipeBossEssenceLeggings(Minigame.java:243)
+[21:31:40] [Server thread/WARN]: 	at Minigame-1.0-SNAPSHOT.jar//me.khorae.minigame.Minigame.onEnable(Minigame.java:131)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[21:31:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
+[21:31:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[21:31:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:31:40] [Server thread/WARN]: java.lang.Throwable: Warning: A plugin is creating a recipe using a Deprecated method. This will cause you to receive warnings stating 'Tried to load unrecognized recipe: bukkit:<ID>'. Please ask the author to give their recipe a static key using NamespacedKey.
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.inventory.ShapedRecipe.<init>(ShapedRecipe.java:34)
+[21:31:40] [Server thread/WARN]: 	at Minigame-1.0-SNAPSHOT.jar//me.khorae.minigame.Minigame.addCustomRecipeBossEssenceBoots(Minigame.java:268)
+[21:31:40] [Server thread/WARN]: 	at Minigame-1.0-SNAPSHOT.jar//me.khorae.minigame.Minigame.onEnable(Minigame.java:132)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[21:31:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:188)
+[21:31:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:639)
+[21:31:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:550)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:671)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:431)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:309)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1131)
+[21:31:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[21:31:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:31:40] [Server thread/INFO]: Running delayed init tasks
+[21:31:40] [Server thread/INFO]: Done (7.514s)! For help, type "help"
+[21:31:40] [Server thread/INFO]: Timings Reset
+[21:31:41] [User Authenticator #0/INFO]: UUID of player ImKhore is 1fa77394-92db-430b-9811-317cd2ec9b94
+[21:31:42] [Server thread/INFO]: ImKhore joined the game
+[21:31:42] [Server thread/INFO]: ImKhore[/127.0.0.1:65135] logged in with entity id 299 at ([Arena]16.0, -60.0, 16.0)
+[21:31:44] [Server thread/INFO]: ImKhore issued server command: /shop
+[21:31:53] [Server thread/INFO]: ImKhore lost connection: Disconnected
+[21:31:53] [Server thread/INFO]: ImKhore left the game
+[21:31:56] [Server thread/INFO]: Stopping the server
+[21:31:56] [Server thread/INFO]: Stopping server
+[21:31:56] [Server thread/INFO]: [Minigame] Disabling Minigame v1.0-SNAPSHOT
+[21:31:56] [Server thread/INFO]: [Minigame] [STDOUT] El plugin se ha deshabilitado
+[21:31:56] [Server thread/WARN]: Nag author(s): '[Khorae]' of 'Minigame v1.0-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[21:31:56] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.1-SNAPSHOT-949;c252850
+[21:31:56] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:31:56] [Server thread/INFO]: Saving players
+[21:31:56] [Server thread/INFO]: Saving worlds
+[21:31:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:31:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:31:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:31:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:31:58] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.73s
+[21:31:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:31:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:31:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:31:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:31:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:31:59] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.98s
+[21:31:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:31:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:31:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:31:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:31:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:31:59] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.25s
+[21:31:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:31:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Arena]'/minecraft:arena
+[21:31:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Arena'
+[21:31:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Arena'
+[21:31:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Arena'
+[21:32:00] [Server thread/INFO]: [ChunkHolderManager] Saved 625 block chunks, 625 entity chunks, 0 poi chunks in world 'Arena' in 0.64s
+[21:32:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (Arena): All chunks are saved
+[21:32:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:32:00] [Server thread/INFO]: Flushing Chunk IO
+[21:32:00] [Server thread/INFO]: Closing Thread Pool
+[21:32:00] [Server thread/INFO]: Closing Server

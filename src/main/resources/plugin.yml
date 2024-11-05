@@ -1,0 +1,25 @@
+name: Minigame
+version: '${version}'
+main: me.khorae.minigame.Minigame
+api-version: '1.20'
+author: Khorae
+depend: [WorldEdit]
+commands:
+  spawnboss:
+    description: Spawn the boss
+    usage: /spawnboss
+    aliases:
+      - boss
+  sword:
+    description: Give sword
+  loadarena:
+    description: Load arena world
+    usage: /loadarena
+  shop:
+    description: Opens the shop
+  balance:
+    description: Shows the player's balance
+  getspawner:
+    description: Gives custom mob spawner
+  clearbossbars:
+    description: Clears all active boss bars
